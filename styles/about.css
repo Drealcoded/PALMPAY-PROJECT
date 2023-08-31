@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.first h3{
+    font-size: 55px;
+    padding-top: 40%;
+   
+   
+}
+#first-section{
+    background-color: #F9F9F9;
+}
+.first p{
+    font-size: 20px;
+    padding-top: 5%;
+}
+.image1{
+    padding-top: 20%;
+    padding-right: 15%;
+}
+#nav-bar{
+    background-color: white;
+    
+}
+.image2{
+    width: 550px;
+    border-radius: 1em;
+    margin-top: 20%;
+}
+.second h3{
+    font-size: 40px;
+
+}
+.second p{
+    font-size: 16px;
+}
+#third-section{
+    background-color: #F9F9F9;
+    padding: 50px;
+}
+#forth-section{
+    background-color: #F9F9F9;
+    padding: 50px;
+}
+.forth{
+    padding-right: 20%;
+}
+.image3{
+    display: inline-flex;
+    gap: 2em;
+}
+#section6{
+    background-color: #F6F6FA;
+   padding-bottom: 2%;
+   border-radius: 2em;
+}
+.sixth h3{
+    font-size: 43px;
+    padding-top: 2%;
+    padding-left: 13%;
+}
+.button1{
+    width: 30%;
+    background-color: #6306B2;
+    height: 8vh;
+    border-radius: 1em;
+    border: none;
+}
+.button2{
+    width: 30%;
+    height: 8vh;
+    background-color: #fff;
+    border-radius: 1em;
+    border: none;
+}
+.button-box{
+    padding-left: 30%;
+    padding-top: 3%;
+}
+.sixth2 h3{
+    font-size: 38px;
+    padding-top: 15%;
+   
+  
+}
+.sixth p{
+    font-size: 16px;
+}
+.image4{
+    height: 60vh;
+}
+#section7{
+    background-color: #F6F6FA;
+    /* height: 90vh;  */
+    padding-bottom: 10%;
+}
+.seventh h3{
+    font-size: 38px;
+    padding-top: 3%;
+}
+.box{
+    /* border: thin solid black; */
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    margin-top: 3%;
+}
+.boxitem{
+    /* border: inherit; */
+    /* width: 100%; */
+    /* height: 50vh; */
+    background-color: #fff;
+    border-radius: 2em;
+}
+.boxitem img, h4{
+    padding-left: 5%;
+}
+.boxitem p{
+    padding-left: 5%;
+}
+.boxitem:nth-of-type(7){
+   grid-column-start: 1;
+   grid-column-end: 3;
+   /* height: 50vh; */
+   background-color: #4B0682;
+   padding: 5%;
+}
+.boxitem h4{
+    font-size: 30px;
+}
+.boxitem p{
+    font-size: 17px;
+}
+.button3{
+    width:30%;
+    height: 8vh;
+    border-radius: 1em; 
+    margin-left: 35%;
+     
+}
+
+#section8{
+    display: flex;
+  
+}
+.Playstore{
+    display: flex;
+    margin-top: 5%;
+   
+    
+}
+.section8-text{
+   padding-top: 10%;
+    
+}
+.section8-text h5{
+   padding-top: 3%;
+}
+.Insured{
+    display: flex;
+    margin-top: 5%;
+    justify-content: flex-start;
+}
+.image5{
+    height: 70vh;
+}
+
+#footer2{
+    background-color: #E6E6E6;
+    
+    
+   
+    
+}
+.Contact-footer2{
+    display: flex;
+    justify-content: space-between;
+    padding: 7% 0 0% ;
+    flex-wrap: wrap;
+    
+
+    
+}
+.Contact-footer2 a{
+    color: gray;
+    line-height: 1.5em;
+}
+.Contact-footer2 h4{
+    font-weight: 400em;
+}
+.Contact-footer2 p :hover{
+    color: blue;
+}
+
+
+
+/* mediaquery */
+
+@media (max-width:1024px){
+    .view1{
+        width: 950px;
+    }
+    .first h3{
+        font-size: 38px;
+    }
+    .first p{
+        font-size: 18px !important;
+    }
+    .image1{
+        height: 75vh;
+    }
+    .image2{
+        width: 300px;
+    }
+    .second h3{
+        font-size: 33px !important;
+    }
+    .sixth h3{
+        font-size: 35px !important;
+    }
+    .sixth2 h3{
+        font-size: 30px !important;
+    }
+    .seventh h3{
+        font-size: 30px !important;
+    }
+    .box h4{
+        font-size: 25px !important;
+    }
+    .box p{
+        font-size: 15px !important;
+    }
+    .section8-text h1, h5{
+        font-size: 25px !important;
+    }
+}
+
+@media (max-width:768px){
+    .view1{
+        width: 700px;
+    }
+    .first h3{
+        padding-top: 20%;
+    }
+    #first-section{
+        padding-left: 10%;
+    
+}
+.image1{
+    height: 80vh;
+    padding-top: 5%;
+}
+.image2{
+    width: 700px;
+}
+.second h3{
+    font-size: 30px !important;
+}
+.section8-text h1, h5{
+    font-size: 15px !important;
+}
+.sixth h3{
+    font-size: 27px !important;
+    padding-right: 4;
+}
+.box h4{
+    font-size: 20px !important;
+}
+.box p{
+    font-size: 13px !important;
+}
+.Insured p{
+    font-size:9px !important;
+}
+.image5{
+    height: 60vh;
+}
+.Contact-footer2{
+    flex-direction: row;
+    gap: 2em;
+
+}
+.Contact-footer2 h4{
+    font-size: 15px !important;
+}
+.Contact-footer2 p{
+    font-size: 10px !important;
+}
+.Contact-footer2 img{
+    width: 40px;
+}
+.button3{
+    width: 50%;
+    transform: translateX(-50px);
+}
+}
+@media (max-width:426px){
+    .view1{
+        width: 390px;
+    }
+    .image1{
+        height: 40vh;
+    }
+    .first h3{
+        font-size: 23px !important;
+        padding-top: 38%;
+    }
+    .first p{
+        font-size: 12px !important;
+    }
+    .second h3{
+        font-size: 23px !important;
+        padding-left: 15%;
+    }
+    .second p{
+        font-size: 12px !important;
+        padding-left: 15%;
+    }
+    .image2{
+        width: 350px;
+        margin-left: 10%;
+       
+    }
+    .image5{
+        height: 22vh;
+    }
+    #third-section p{
+        font-size: 11px !important;
+    }
+    #forth-section p{
+        font-size: 9.5px !important;
+    }
+    .sixth h3{
+        font-size: 15px !important;
+    }
+    .button-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .button1, .button2{
+        width: 50%;
+    }
+    .sixth2 h3{
+        font-size: 25px !important;
+        padding-left: 5%;
+    }
+    .sixth2 p{
+        font-size: 12px !important;
+        padding-left: 5%;
+    }
+    .box{
+      flex-direction: column;
+      display: flex;
+    }
+    .button3{
+        width: 66%;
+        transform: translateX(-56px);
+    }
+    .image5{
+        transform: translateY(85px);
+    }
+}
+@media only screen and (max-width: 376px) and (min-width: 320px){
+    .view1{
+        width: 320px;
+        transform: translate(20px);
+    }
+
+    .image2{
+        width: 300px;
+    }
+    .image4{
+        height: 50vh;
+    }
+    .sixth h3{
+        font-size: 13px !important;
+    }
+    .sixth2 h3{
+        font-size: 20px !important;
+    }
+    .seventh h3{
+        font-size: 25px !important;
+    }
+    .first{
+        padding-top: 10%;
+    }
+    .second h3{
+        font-size: 20px !important;
+    }
+    .button1,.button2{
+        width: 70%;
+        transform: translateX(-20px);
+    }
+    .button3{
+        width: 60%;
+        transform: translateX(-40px);
+    }
+    .section8-text h1, h5{
+        font-size: 10px !important;
+    }
+    .image5{
+        height: 15vh;
+    }
+}
+@media only screen and (max-width: 320px){
+    .view1{
+        width: 250px;
+    }
+    .image2{
+        width: 250px;
+    }
+    .image4{
+        height: 40vh;
+    }
+    .first{
+        padding-top: 10%;
+    }
+}

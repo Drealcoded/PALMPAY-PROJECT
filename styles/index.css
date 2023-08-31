@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none;
+ 
+}
+
+/* .landing{
+    max-width: 1440px;
+    background-color: red;
+} */
+
+/* header */
+
+.first h3{
+    font-size: 55px;
+    padding-top: 10%;
+    
+}
+#nav-bar{
+    background-color: white;
+}
+
+.first p{
+    font-size: 20px;
+}
+
+.image1{
+    height: 60vh;
+    
+ 
+   
+}
+.image2 img{
+    margin-top: 17%;
+}
+
+.button{
+    display: flex;
+    /* border: thin solid black; */
+    
+}
+.button img{
+    width: 60%;
+    
+}
+.click1{
+    background-color:#6306B2;
+    color: white;
+    width: 30%;
+    height: 6vh;
+    border-radius: 7%;
+    border: none;
+   
+
+}
+#first-section{
+    /* border: thin solid black; */
+    margin-top: 8%;
+  
+ 
+}
+.Enjoy-text{
+    padding-top: 17%;
+    padding-left: 15%;
+    line-height: 1.7em;
+}
+.Get-text{
+    margin-top: 15%;
+
+}
+
+
+.image3{
+   margin-left: 40%;
+   width: 80%;
+   
+}
+.image4{
+    height: 60vh;
+}
+
+#purple-box{
+    /* border: thin solid; */
+    margin-top: 0.5%;
+    /* hei  ght: 85vh; */
+    background-color: #6306B2;
+    padding-bottom: 5%;
+}
+.purple-box-text h1{
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    
+}
+.star-box{
+    /* border: thin solid; */
+    width: 60%;
+    height: 7vh;
+    margin: auto;
+    margin-top: 2%;
+    background-color: #661ca8;
+    display:flex;
+    justify-content: center;
+    gap: 2em;
+}
+.divider{
+    border: thin solid white;
+    height: 5vh;
+    width: 0.1%;
+}
+
+#slide-container{
+    /* border: thin solid black; */
+    /* min-height: 80vh; */
+    margin-top: 1%;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    gap: 1em;
+    
+   
+    
+}
+.slide-item{
+    /* border: thin solid black; */
+    height: 40vh;
+    width: 20%;
+    background-color: #FFFFFF;
+    border-radius: 2em;
+
+   
+}
+.slide-item h3{
+    font-size: 20px;
+}
+.Sanni-text{
+    text-align: center;
+    padding-top: 5%;
+}
+.slide-item:nth-of-type(1) h2{
+    text-align: center;
+     padding: 10px;
+    
+     /* line-height: 40px; */
+     font-size: 20px;
+}
+
+
+.Logos-text{
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+.slide-item:nth-of-type(2) h2{
+    text-align: center;
+     padding: 10px;
+    
+     /* line-height: 40px; */
+     font-size: 20px;
+    }
+   
+
+.Eddie-text{
+        text-align: center;
+        padding-top: 5%;
+}
+
+.slide-item:nth-of-type(3) h2{
+        text-align: center;
+        padding: 10px;
+        
+         /* line-height: 40px; */
+         font-size: 20px;
+        }
+#slide-item4{
+    margin-top: 1%;
+}
+
+.Our-partners{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.partner-image1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px;
+}
+.partner-image2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px;
+}
+.partner-image3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px;
+} 
+#section6{
+    height: 60vh;
+    display: flex;
+}
+.Playstore{
+    display: flex;
+    padding-top: 2%;
+    
+   
+    
+}
+
+.section6-text h5{
+ padding-top: 3%;
+  font-size: 22px;
+}
+.section6-text h1{
+    font-size: 35px;
+    padding-top: 3%;
+  }
+.Insured{
+    display: flex;
+    gap: 2em;
+    padding-top: 5%;
+    
+  
+}
+
+#footer{
+    /* height: 50vh; */
+    background-color: #E6E6E6;
+  
+}
+.Contact-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 7% 0 0% ;
+    flex-wrap: wrap;
+}
+.Contact-footer a{
+    color: gray;
+    line-height: 1.5em;
+}
+.Contact-footer h4{
+    font-weight: 400em;
+}
+.Contact-footer p :hover{
+    color: blue;
+}
+
+
+                                    /* media---------query */
+
+@media(max-width:1024px){
+
+    .first h3{
+        font-size: 35px !important;
+    }
+   .first p{
+    font-size: 17px !important;
+   }
+   
+   .image1{
+    height: 50vh;
+    padding-top: 10%;
+   }
+    .image4{
+        height: 60vh;
+       
+        
+    }
+    .image2{
+        height: 70vh;
+        padding-top: 25%;
+    }
+    .section6-text h1{
+        font-size: 25px !important;
+    }
+    .section6-text h5{
+        font-size: 20px !important;
+    }
+    .Playstore{
+        width: 70%;
+    }
+    .section6-text{
+        padding-top: 10%;
+    }
+    
+  .Enjoy-text h1{
+    font-size: 25px !important;
+  }
+  .Enjoy-text p{
+    font-size: 15px !important;
+  }
+  .Get-text h1{
+    font-size: 25px !important;
+  }
+  .Get-text p{
+    font-size: 15px !important;
+  }
+.image3{
+    height: 70vh;
+}
+    .click1{
+        width: 50%;
+    }
+   .slide-item h2{
+    font-size: 20px;
+   }
+   .slide-item h3{
+    font-size: 15px;
+   }
+   .slide-item img{
+    margin-left: 15%;
+   }
+   .star-box{
+    width: 50%;
+   }
+   .Eddie{
+    right: 15%;
+    top: 8%;
+    position: absolute;
+   }
+}
+
+
+
+
+@media(max-width:768px){
+    #first-section{
+       display: flex;
+       margin-top: 10%;
+    }
+
+    .first h3{
+        font-size: 30px !important;
+    }
+    .first p{
+        font-size: 18px !important;
+    }
+    .image1{
+        height: 50vh;
+       margin-right: 20%;
+    }
+    #second-section{
+        display: flex;
+    }
+    .image2{
+        height: 60vh;
+        padding-top: 20%;
+    }
+    #third-section{
+        display: flex;
+    }
+    #third-section p{
+        font-size: 12px !important;
+    }
+   
+    .click1{
+        width: 50%;
+    }
+  
+    .Enjoy-text h1{
+        font-size: 25px !important;
+       
+    }
+    .partner-image1, .partner-image2, .partner-image3{
+        /* flex-di ection: column; */
+      flex-wrap: wrap;
+      
+    }
+    .image3{
+      height: 50vh;
+    }
+    .slide-item h2{
+        font-size: 15px;
+
+    }
+    .slide-item h3{
+        font-size: 20px;
+    }
+    .Olori{
+        position: absolute;
+        right: 56%;
+        top: 9%;
+    }
+    .Eddie{
+       position: absolute;
+       right: 8%;
+    }
+    .Sanni{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .Logos-text{
+        position: absolute;
+        right: 43%;
+        top: 4%;
+    }
+    .Eddie-text{
+        position: absolute;
+        right: 16%;
+        top: 4%;
+    }
+    #purple-box{
+        width: 770px;
+    }
+    .Our-partners{
+        
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width:425px){
+    #first-section{
+       display: grid;
+    }
+
+    .slide-item{
+        flex-direction: column;
+    }
+    .partner-images{
+        flex-wrap: wrap;
+    }
+  
+    
+}
+
+
+                                                        /* media query end */
+
+                                                        

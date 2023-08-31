@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Poppins,sans-serif !important;
+}
+.first h3{
+    font-size: 38px;
+   
+    padding-top: 12%;
+}
+.first p{
+    font-size: 22px;
+    padding-top: 3%;
+}
+#nav-bar{
+    background-color: white;
+}
+.first{
+    margin-top: 10%;
+}
+.image1{
+   /* height: 60vh; */
+   margin-top: 20%;
+    
+    
+    
+}
+.button1{
+    display: flex;
+    margin-top: 5%;
+}
+.button{
+    display: flex;
+    margin-top: 5%;
+}
+
+@media(max-width:1024px){
+    .first p{
+        font-size: 19px !important;
+    }
+    .image1{
+        height: 70vh;
+    }
+    .second-text h3{
+        font-size: 25px !important;
+    }
+    .second-text p{
+        font-size: 15px !important;
+    }
+    .third-texts h3{
+        font-size: 25px !important;
+    }
+    .third-texts p{
+        font-size: 15px !important;
+    }
+    .forth-text h3{
+        font-size: 25px !important;
+        
+    }
+    .forth-text p{
+        font-size: 15px !important;
+    }
+    .fifth-item h3{
+        font-size: 25px !important;
+    }
+    .fifth-item p{
+        font-size: 15px !important;
+    }
+    .card1{
+        height: 40vh !important;
+    }
+    .card2{
+        height: 40vh !important;
+        
+    }
+    .card3{
+        height: 40vh !important;
+    }
+    .sixth-items h3{
+        font-size: 25px !important;
+    }
+    .sixth-items p{
+        font-size: 15px !important;
+    }
+    .seven-items h3{
+        font-size: 25px !important;
+    }
+    .seven-items p{
+        font-size: 15px !important;
+    }
+    .nipimage{
+        height: 40vh;
+    }
+    .eight-items h4{
+        font-size: 22px !important;
+    }
+    .eight-items h3{
+        font-size: 22px !important;
+    }
+    .eight-items p{
+        font-size: 12px !important;
+    }
+    .image8{
+        height: 90vh;
+        margin-left: 10%;
+       
+       
+    }
+    .image4{
+        height: 60vh;
+    }
+
+}
+
+
+
+
+@media(max-width:768px){
+    .second-text h3{
+        padding-left: 14%;
+        font-size: 25px !important;
+        
+    }
+    .second-text p{
+        font-size: 15px !important;
+        padding-left: 14%;
+        padding-bottom: 20%;
+    }
+    .third-texts h3{
+        font-size: 25px !important;
+        padding-left: 20%;
+    }
+    .third-texts p{
+        font-size: 15px !important;
+        padding-left: 20%;
+    }
+    .third-image1{
+        padding-left: 10%;
+        padding-bottom: 20%;
+    }
+    .forth-text h3{
+        font-size: 22px !important;
+        
+    }
+    .forth-text p{
+        font-size: 15px !important;
+    }
+    .boxes p{
+        font-size: 13px !important;
+     }
+     .fifth-item h3{
+        font-size: 25px !important;
+    }
+    .fifth-item p{
+        font-size: 15px !important;
+    }
+    .card1{
+        height: 40vh !important;
+    }
+    .card2{
+        height: 40vh !important;
+        
+    }
+    .card3{
+        height: 70vh !important;
+    }
+    .sixth-items h3{
+        font-size: 29px !important;
+    }
+    .sixth-items p{
+        font-size: 15px !important;
+    }
+    .seven-items h3{
+        font-size: 22px !important;
+    }
+    .seven-items p{
+        font-size: 15px !important;
+    }
+    .nipimage{
+        height: 30vh;
+    }
+    .eight-items h4{
+        font-size: 22px !important;
+    }
+    .eight-items h3{
+        font-size: 22px !important;
+    }
+    .eight-items p{
+        font-size: 12px !important;
+    }
+    .image8{
+        height: 70vh;
+        margin-left: 10%;
+       
+       
+    }
+   
+    .section9-text h1{
+        font-size: 25px !important;
+    }
+    .section9-text h5{
+        font-size: 19px !important;
+    }
+    .section9-text p{
+        font-size: 12px !important;
+    }
+    
+    .image4{
+        height: 60vh;
+      
+    }
+}
+
+
+
+
+
+
+@media(max-width:426px){
+    .image1{
+        height: 30vh;
+     }
+     .first h3{
+         font-size: 25px !important;
+     }
+     .first p{
+         font-size: 12px !important;
+     }
+     .image2{
+         height: 35vh;
+     }
+     .second-text h3{
+        font-size: 22px !important;
+    }
+    .second-text p{
+        font-size: 15px !important;
+    }
+    .third-texts h3{
+        font-size: 22px !important;
+    }
+    .third-texts p{
+        font-size: 15px !important;
+    }
+    .third-image1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .forth-text h3{
+        font-size: 22px !important;
+    }
+    .forth-text p{
+        font-size: 15px !important;
+    }
+    .boxes p{
+        font-size: 10px !important;
+     }
+     .sixth-items h3{
+        font-size: 22px !important;
+    }
+    .sixth-items p{
+        font-size: 15px !important;
+    }
+    .fifth{
+        flex-direction: column;
+        
+    }
+    .fifth-item h3{
+        font-size: 25px !important;
+    }
+    .fifth-item p{
+        font-size: 15px !important;
+    }
+    .fifth-item:nth-of-type(1){
+        width: 380px;
+    }
+    .fifth-item:nth-of-type(2){
+        width: 380px;
+    }
+    .seven-box{
+        flex-direction: column;
+    }
+    .seven-items h3{
+        font-size: 22px !important;
+    }
+    .seven-items p{
+        font-size: 15px !important;
+    }
+    .seven-items:nth-of-type(1){
+        width: 380px !important;
+    }
+    .seven-items:nth-of-type(2){
+        width: 380px !important;
+        height: 70vh;
+    }
+    .eight-items h4{
+        font-size: 20px !important;
+    }
+    .eight-items h3{
+        font-size: 20px !important;
+    }
+    .eight-items p{
+        font-size: 10px !important;
+    }
+    .button{
+        display: none;
+    }
+    .image8{
+        height: 30vh;
+       
+       
+    }
+    #section9{
+        flex-direction: column;
+    }
+    .section9-text h1{
+        font-size: 20px !important;
+    }
+    .section9-text h5{
+        font-size: 15px !important;
+    }
+    .section9-text p{
+        font-size: 10px !important;
+    }
+    .image4{
+        height: 35vh;
+    }
+    .card1{
+        height: 40vh !important;
+    }
+    .card3{
+        height: 40vh !important;
+    }
+}
+    
+
+
+@media only screen and (max-width: 376px) and (min-width: 320px){
+    .image1{
+       height: 35vh;
+       padding-left: 20%;
+    }
+    
+    .first h3{
+        font-size: 25px !important;
+        margin-top: 20%;
+    }
+    .first p{
+        font-size: 12px !important;
+    }
+    .image2{
+        height: 35vh;
+    }
+    .second-text h3{
+        font-size: 25px !important;
+    }
+    .second-text p{
+        font-size: 15px !important;
+    }
+    .third-texts h3{
+        font-size: 25px !important;
+    }
+    .third-texts p{
+        font-size: 15px !important;
+    }
+    .third-image1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .forth-text h3{
+        font-size: 20px !important;
+    }
+    .forth-text p{
+        font-size: 15px !important;
+    }
+    .fifth{
+        flex-direction: column;
+        
+    }
+    .fifth-item:nth-of-type(2){
+       width: 370px;
+    }
+
+    .fifth-item h3{
+        font-size: 25px !important;
+    }
+    .fifth-item p{
+        font-size: 15px !important;
+    }
+    .boxes p{
+       font-size: 10px !important;
+    }
+   
+    .fifth-item:nth-of-type(1){
+        width: 370px;
+    }
+    .sixth-items h3{
+        font-size: 22px !important;
+    }
+    .sixth-items p{
+        font-size: 15px !important;
+    }
+    .card1{
+        height: 40vh !important;
+    }
+    .card3{
+        height: 40vh !important;
+    }
+    .seven-box{
+        flex-direction: column;
+    }
+    .seven-items h3{
+        font-size: 22px !important;
+    }
+    .seven-items p{
+        font-size: 15px !important;
+    }
+    .seven-items:nth-of-type(1){
+        width: 360px !important;
+    }
+    .seven-items:nth-of-type(2){
+        width: 360px !important;
+        height: 70vh;
+    }
+    .eight-items h4{
+        font-size: 12px !important;
+    }
+    .eight-items h3{
+        font-size: 15px !important;
+    }
+    .eight-items p{
+        font-size: 10px !important;
+    }
+    .button{
+        display: none;
+    }
+    .image8{
+        height: 30vh;
+       
+       
+    }
+    #section9{
+        flex-direction: column;
+    }
+    .section9-text h1{
+        font-size: 20px !important;
+    }
+    .section9-text h5{
+        font-size: 15px !important;
+    }
+    .section9-text p{
+        font-size: 10px !important;
+    }
+    .image4{
+        height: 35vh;
+    }
+}
+
+@media(max-width:320px){
+    .first h3{
+        font-size: 20px !important;
+    }
+    .first p{
+        font-size: 10px !important;
+    }
+    .fifth-item:nth-of-type(1){
+        width: 300px;
+    }
+    .fifth-item:nth-of-type(2){
+        width: 300px;
+    }
+    .seven-items:nth-of-type(1){
+        width: 300px !important;
+    }
+    .seven-items:nth-of-type(2){
+        width: 300px !important;
+    }
+   .nipimage{
+    height: 20vh;
+   }
+   .card2{
+    height: 25vh !important;
+   }
+} 
+
+
+#section2{
+    border-radius: 2em; 
+}
+
+
+ .second-text{
+    padding-top: 14%;
+    padding-left: 10%;
+ }
+.second-text h3{
+    font-size: 37px;  
+}
+.second-text p{
+    font-size: 21px;  
+}
+.third{
+
+    height: 55vh;
+    /* position: relative; */
+    /* display: flex;   */  
+}
+#section3{
+    border-radius: 2em;
+    margin-top: 2%;
+}
+
+.image2{
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.third h3{
+    font-size: 37px;
+    padding-left: 20%; 
+    padding-top: 10%; 
+}
+.third p{
+    font-size: 22px;
+    padding-left: 20%;  
+}
+/* .third-texts{
+    margin-top: 10%;
+    margin-left: 20%;
+  
+
+   
+} */
+.third-image1{
+    display: flex;
+    gap: 2em;
+    margin-left: 5%;
+    margin-top: 5%;
+ }
+
+ #section4{
+    height: 85vh;
+ }
+
+ .forth{
+    height: 40vh;
+    margin-top: 2%;
+ }
+ .forth h3{
+    font-size: 40px;
+    padding-top: 5%;
+    
+ }
+ .forth P{
+    font-size: 22px;
+    padding-top: 2%;
+ 
+ }
+ .box{
+    /* border: thick solid black; */
+    height: 40vh;
+    display: flex;
+    gap: 2em;
+ }
+ .boxes{
+    border: inherit;
+    grid-template-columns: repeat(3, 1fr);
+    width: 40%;
+    background-color: #FFFFFF;
+    border-radius: 2em;
+ }
+ .inbox1{
+    border: inherit;
+    height: 20vh;
+    background-color:#19A053;
+    background-image: url(https://www.palmpay.com/_next/static/media/card4bank0.65feb126.png?w=128&q=100);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1em;
+ }
+ .inbox2{
+    border: inherit;
+    height: 20vh;
+    background-color: #E6EEEE;
+    background-image: url(https://www.palmpay.com/_next/static/media/card4bank1.17b5d40b.png?w=256&q=100);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1em;
+ }
+ .inbox3{
+    border: inherit;
+    height: 20vh;
+    background-color: #3F418A;
+    background-image: url(https://www.palmpay.com/_next/static/media/card4bank2.954a003e.png?w=256&q=100);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1em;
+ }
+ .inbox4{
+    border: inherit;
+    height: 20vh;
+    background-color: #E6EEEE;
+    background-image: url(https://www.palmpay.com/_next/static/media/card4bank3.42a606c3.png?w=384&q=100);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1em;
+ }
+ .fifth{
+    /* border: thick solid black; */
+    /* height: 95vh; */
+    display: flex;
+    margin-top: 3%;
+    gap: 1em;
+
+ }
+ .fifth-item{
+    /* border: inherit; */
+    width: 50%;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #e7e7ed;
+    border-radius: 2em;
+
+ }
+ #sixth{
+    /* height: 90vh; */
+    border-radius: 2em;
+   
+ }
+ 
+ 
+.seven-box{
+    /* border: thin solid black; */
+    display: flex;
+    gap: 2em;
+    margin-top: 2%;
+    
+}
+.seven-items{
+    /* border: inherit; */
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 2em;
+
+}
+.seven-items:nth-of-type(1){
+    width: 65%;
+
+}
+.seven-items:nth-of-type(2){
+    width: 35%;
+    background-color: rgb(186, 12, 180);
+    background-image: url(../image/THESPEAKER.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: bottom;
+}
+.eighth-box{
+    /* border: thin solid black; */
+    display: flex;
+    gap: 2em;
+    min-height: 60vh;
+    margin-top: 2%
+}
+.eight-items{
+    /* border: inherit; */
+    width: 50%;
+    grid-template-columns: repeat(2, 1fr);
+}
+.line1{
+    display: flex;
+}
+.border1{
+    border: thin solid rgb(194, 17, 194);
+    height: 15vh;
+    margin: auto;
+    margin-top: 8%;
+
+}
+.line2{
+    display: flex;
+}
+.border2{
+    border: thin solid rgb(194, 17, 194);
+    height: 15vh;
+    margin: auto;
+    margin-top: 8%;
+}
+.line3{
+    display: flex;
+}
+/* .border3{
+    border: thin solid rgb(194, 17, 194);
+    height: 15vh;
+    margin: auto;
+    margin-top: 8%;
+} */
+
+#side-scroll{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 90vh;
+}
+
+#section9{
+    display: flex;
+    margin-top: 10%;
+}
+.Playstore{
+    display: flex;
+    margin-top: 5%;
+   
+    
+}
+.section9-text{
+    margin-top: 10%;
+    
+}
+.section9-text h5{
+    margin-top: 5%;
+}
+.Insured{
+    display: flex;
+    margin-top: 5%;
+}
+
+/* footer */
+
+#footer2{
+    background-color: #E6E6E6;
+    
+    
+   
+    
+}
+.Contact-footer2{
+    display: flex;
+    justify-content: space-between;
+    padding: 7% 0 0% ;
+    flex-wrap: wrap;
+
+    
+}
+.Contact-footer2 a{
+    color: gray;
+    line-height: 1.5em;
+}
+.Contact-footer2 h4{
+    font-weight: 400em;
+}
+.Contact-footer2 p :hover{
+    color: blue;
+}
