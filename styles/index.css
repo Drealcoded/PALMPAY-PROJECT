@@ -65,10 +65,9 @@
 .Enjoy-text{
     padding-top: 17%;
     padding-left: 15%;
-    line-height: 1.7em;
 }
 .Get-text{
-    margin-top: 15%;
+   padding-top: 30px;
 
 }
 
@@ -97,7 +96,7 @@
 }
 .star-box{
     /* border: thin solid; */
-    width: 60%;
+    /* width: 60%; */
     height: 7vh;
     margin: auto;
     margin-top: 2%;
@@ -123,10 +122,19 @@
    
     
 }
+.star-box h2{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.star-box h5{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
 .slide-item{
     /* border: thin solid black; */
     height: 40vh;
-    width: 40%;
+    /* width: 40%; */
     background-color: #FFFFFF;
     border-radius: 2em;
     margin: auto;
@@ -203,7 +211,7 @@
     margin: 80px;
 } 
 #section6{
-    height: 60vh;
+    /* height: 60vh; */
     display: flex;
 }
 .Playstore{
@@ -320,10 +328,14 @@
    .star-box{
     width: 50%;
    }
-   .Eddie{
-    right: 15%;
-    top: 8%;
-    position: absolute;
+   .Sanni-text img{
+    padding-right: 50px;
+   }
+   .Eddie-text img{
+    padding-right: 50px;
+   }
+   .Logos-text img{
+    padding-right: 50px;
    }
 }
 
@@ -331,6 +343,7 @@
 
 
 @media(max-width:768px){
+
     #first-section{
        display: flex;
        margin-top: 10%;
@@ -377,59 +390,126 @@
       height: 50vh;
     }
     .slide-item h2{
-        font-size: 15px;
+        font-size: 15px !important;
 
     }
     .slide-item h3{
-        font-size: 20px;
+        font-size: 20px !important;
     }
-    .Olori{
-        position: absolute;
-        right: 56%;
-        top: 9%;
+  
+    .image4{
+        height: 40vh !important;
+      
     }
-    .Eddie{
-       position: absolute;
-       right: 8%;
+
+       
+    .section6-text h1{
+        font-size: 22px !important;
     }
-    .Sanni{
-        position: absolute;
-        top: 10%;
-        left: 10%;
+    .section6-text h5{
+        font-size: 17px !important;
     }
-    .Logos-text{
-        position: absolute;
-        right: 43%;
-        top: 4%;
+    .section6-text p{
+        font-size: 12px !important;
     }
-    .Eddie-text{
-        position: absolute;
-        right: 16%;
-        top: 4%;
-    }
-    #purple-box{
-        width: 770px;
-    }
+  
     .Our-partners{
         
         flex-direction: column;
     }
+    
+    .Contact-footer h4{
+        font-size: 15px !important;
+    }
+    .Contact-footer p{
+        font-size: 10px !important;
+    }
+    .Contact-footer img{
+        width: 40px;
+    }
+    .Contact-footer{
+        gap: 2em;
+    } 
+
 }
 
 
-@media(max-width:425px){
-    #first-section{
-       display: grid;
-    }
+@media(max-width:426px){
 
-    .slide-item{
-        flex-direction: column;
-    }
-    .partner-images{
-        flex-wrap: wrap;
-    }
-  
+  #first-section{
+    flex-direction: column !important;
+    padding-top: 50px;
     
+  }
+  .first p, h3, .button, .image1{
+    padding-left: 80px !important;
+  }
+   #second-section{
+    flex-direction: column !important;
+    /* margin-left: 100px !important; */
+   }
+   .image2{
+    padding-left: 80px;
+   }
+   .Enjoy-text h1, .partner-image1{
+    padding-left: 50px;
+   }
+   
+
+   #third-section{
+    flex-direction: column !important;
+    padding-left: 20px !important;
+   }
+   /* .Enjoy-text p{
+    padding-left: 1px !important;
+   } */
+  .Get-text{
+    padding-left: 98px;
+  }  
+  .image3{
+    padding-right: 180px !important;
+  }
+
+.section6-text h1{
+    font-size: 22px !important;
+}
+.section6-text h5{
+    font-size: 17px !important;
+}
+.section6-text p{
+    font-size: 12px !important;
+}
+#section6{
+    flex-direction: column;
+    
+}
+.section6-text, .image4{
+    margin-left: 50px;
+}
+
+.Sanni-text h3{
+    padding-right: 90px;
+}
+.Eddie-text h3{
+    padding-right: 90px;
+}
+.Logos-text h3{
+    padding-right: 90px;
+}
+.partner-image1{
+    flex-direction: column;
+    gap: 2em;
+}
+.partner-image2{
+    flex-direction: column;
+    gap: 2em;
+}
+.partner-image3{
+    flex-direction: column;
+    gap: 2em;
+}
+
+
 }
 
 

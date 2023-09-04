@@ -118,22 +118,29 @@
 
 
 @media(max-width:768px){
+    .first{
+        padding-left: 85px;
+    }
+    .image1{
+        padding-left: 80px;
+    }
+
     .second-text h3{
         padding-left: 14%;
-        font-size: 25px !important;
+        font-size: 30px !important;
         
     }
     .second-text p{
-        font-size: 15px !important;
+        font-size: 18px !important;
         padding-left: 14%;
         padding-bottom: 20%;
     }
     .third-texts h3{
-        font-size: 25px !important;
+        font-size: 30px !important;
         padding-left: 20%;
     }
     .third-texts p{
-        font-size: 15px !important;
+        font-size: 18px !important;
         padding-left: 20%;
     }
     .third-image1{
@@ -141,30 +148,32 @@
         padding-bottom: 20%;
     }
     .forth-text h3{
-        font-size: 22px !important;
+        font-size: 30px !important;
         
     }
     .forth-text p{
-        font-size: 15px !important;
+        font-size: 18px !important;
     }
     .boxes p{
-        font-size: 13px !important;
+        font-size: 16px !important;
      }
      .fifth-item h3{
         font-size: 25px !important;
     }
     .fifth-item p{
-        font-size: 15px !important;
+        font-size: 16px !important;
     }
     .card1{
-        height: 40vh !important;
+        height: 35vh !important;
+        padding-left: 85px !important;
     }
     .card2{
-        height: 40vh !important;
-        
+        height: 35vh !important;
+        padding-left: 40px !important;
     }
     .card3{
-        height: 70vh !important;
+        height: 50vh !important;
+        margin-left: 85px;
     }
     .sixth-items h3{
         font-size: 29px !important;
@@ -179,37 +188,51 @@
         font-size: 15px !important;
     }
     .nipimage{
-        height: 30vh;
+        /* height: 10vh; */
+        /* padding-left: 1px !important; */
+        width: 300px;
     }
     .eight-items h4{
-        font-size: 22px !important;
+        font-size: 20px !important;
     }
     .eight-items h3{
-        font-size: 22px !important;
+        font-size: 23px !important;
     }
     .eight-items p{
-        font-size: 12px !important;
+        font-size: 15px !important;
     }
     .image8{
-        height: 70vh;
-        margin-left: 10%;
+        height: 60vh !important;
+        padding-right: 60px;
        
        
     }
    
     .section9-text h1{
-        font-size: 25px !important;
+        font-size: 22px !important;
     }
     .section9-text h5{
-        font-size: 19px !important;
+        font-size: 17px !important;
     }
     .section9-text p{
         font-size: 12px !important;
     }
     
     .image4{
-        height: 60vh;
+        height: 40vh !important;
       
+    }
+    .Contact-footer2 h4{
+        font-size: 15px !important;
+    }
+    .Contact-footer2 p{
+        font-size: 10px !important;
+    }
+    .Contact-footer2 img{
+        width: 40px;
+    }
+    .Contact-footer2{
+        gap: 2em;
     }
 }
 
@@ -220,16 +243,18 @@
 
 @media(max-width:426px){
     .image1{
-        height: 30vh;
+        height: 40vh;
      }
      .first h3{
-         font-size: 25px !important;
+         font-size: 28px !important;
+         padding-top: 80px;
      }
      .first p{
          font-size: 12px !important;
      }
      .image2{
-         height: 35vh;
+         height: 6vh;
+         padding-top: 50px;
      }
      .second-text h3{
         font-size: 22px !important;
@@ -307,13 +332,23 @@
     .button{
         display: none;
     }
+    .nipimage{
+        height: 40vh !important;
+        padding-right: 50px !important;
+    }
     .image8{
-        height: 30vh;
+        height: 40vh !important;
+        padding-left: 10px !important;
+        
        
        
     }
     #section9{
         flex-direction: column;
+        
+    }
+    .section9-text{
+        margin-left: 28px;
     }
     .section9-text h1{
         font-size: 20px !important;
@@ -326,12 +361,14 @@
     }
     .image4{
         height: 35vh;
+        margin-left: 55px;
     }
     .card1{
         height: 40vh !important;
     }
     .card3{
         height: 40vh !important;
+        padding-left: 40px !important;
     }
 }
     
@@ -340,52 +377,57 @@
 @media only screen and (max-width: 376px) and (min-width: 320px){
     .image1{
        height: 35vh;
-       padding-left: 20%;
+       /* padding-left: 20%; */
     }
     
+    
     .first h3{
-        font-size: 25px !important;
-        margin-top: 20%;
+        font-size: 23px !important;
+        /* margin-top: 20%; */
     }
     .first p{
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
     .image2{
-        height: 35vh;
+        height: 45vh;
+        padding-left: 20px;
+    }
+    .second-text{
+        padding-right: 20px !important;
     }
     .second-text h3{
-        font-size: 25px !important;
+        font-size: 23px !important;
+        
     }
     .second-text p{
-        font-size: 15px !important;
+        font-size: 12px !important;
     }
     .third-texts h3{
-        font-size: 25px !important;
+        font-size: 22px !important;
     }
     .third-texts p{
-        font-size: 15px !important;
+        font-size: 12px !important;
     }
     .third-image1 {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
-        justify-content: center;
+        
     }
     .forth-text h3{
-        font-size: 20px !important;
+        font-size: 22px !important;
     }
     .forth-text p{
-        font-size: 15px !important;
+        font-size: 12px !important;
     }
     .fifth{
         flex-direction: column;
         
     }
-    .fifth-item:nth-of-type(2){
-       width: 370px;
-    }
+
 
     .fifth-item h3{
         font-size: 25px !important;
+        padding: 5px;
     }
     .fifth-item p{
         font-size: 15px !important;
@@ -394,9 +436,6 @@
        font-size: 10px !important;
     }
    
-    .fifth-item:nth-of-type(1){
-        width: 370px;
-    }
     .sixth-items h3{
         font-size: 22px !important;
     }
@@ -408,6 +447,10 @@
     }
     .card3{
         height: 40vh !important;
+        padding-left: 10px !important;
+    }
+    .card2{
+        padding-left: 65px !important;
     }
     .seven-box{
         flex-direction: column;
@@ -466,6 +509,9 @@
     .first p{
         font-size: 10px !important;
     }
+    .fifth{
+        flex-direction: column;
+    }
     .fifth-item:nth-of-type(1){
         width: 300px;
     }
@@ -489,6 +535,7 @@
 
 #section2{
     border-radius: 2em; 
+    padding-bottom: 20px;
 }
 
 
@@ -497,34 +544,30 @@
     padding-left: 10%;
  }
 .second-text h3{
-    font-size: 37px;  
+    font-size: 33px;  
 }
 .second-text p{
     font-size: 21px;  
 }
-.third{
 
-    height: 55vh;
-    /* position: relative; */
-    /* display: flex;   */  
-}
 #section3{
     border-radius: 2em;
     margin-top: 2%;
+    padding-bottom: 25px;
 }
 
 .image2{
     margin-left: 6%;
-    margin-top: 5%;
+   
 }
 
 .third h3{
-    font-size: 37px;
+    font-size: 32px;
     padding-left: 20%; 
     padding-top: 10%; 
 }
 .third p{
-    font-size: 22px;
+    font-size: 20px;
     padding-left: 20%;  
 }
 /* .third-texts{
@@ -542,23 +585,26 @@
  }
 
  #section4{
-    height: 85vh;
+    /* height: 85vh; */
+    padding-bottom: 22px;
  }
 
  .forth{
-    height: 40vh;
+    /* height: 40vh; */
     margin-top: 2%;
  }
  .forth h3{
-    font-size: 40px;
+    font-size: 33px;
     padding-top: 5%;
     
  }
  .forth P{
-    font-size: 22px;
+    font-size: 20px;
     padding-top: 2%;
  
  }
+
+
  .box{
     /* border: thick solid black; */
     height: 40vh;
@@ -618,16 +664,51 @@
  }
  .fifth-item{
     /* border: inherit; */
-    width: 50%;
+    /* width: 50%; */
     grid-template-columns: repeat(2, 1fr);
     background-color: #e7e7ed;
     border-radius: 2em;
 
  }
+ .fifth-item h3{
+    font-size: 33px;
+    padding-top: 5%;
+    text-align: center;
+ }
+ .fifth-item p{
+    font-size: 20px;
+    text-align: center;
+    
+ }
+ .card1{
+    height: 50vh;
+    padding-left: 170px;
+    margin-top: 8%;
+ }
+ .card2{
+    height: 50vh;
+    padding-left: 120px;
+    margin-top: 8%;
+ }
  #sixth{
     /* height: 90vh; */
     border-radius: 2em;
+    padding-bottom: 40px;
    
+ }
+ .sixth-items h3{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+ }
+ .sixth-items p{
+    font-size: 20px;
+    text-align: center;
+ }
+ .card3{
+    height: 50vh;
+    padding-left: 150px;
+    margin-top: 30px;
  }
  
  
@@ -643,6 +724,18 @@
     grid-template-columns: repeat(2, 1fr);
     border-radius: 2em;
 
+}
+.seven-items h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+.seven-items p{
+    font-size: 20px;
+    text-align: center;
+}
+.nipimage{
+    height: 45vh;
 }
 .seven-items:nth-of-type(1){
     width: 65%;
@@ -667,6 +760,11 @@
     /* border: inherit; */
     width: 50%;
     grid-template-columns: repeat(2, 1fr);
+}
+.image8{
+    height: 80vh;
+    padding-left: 180px;
+    padding-top: 20px;
 }
 .line1{
     display: flex;
@@ -714,11 +812,12 @@
     
 }
 .section9-text{
-    margin-top: 10%;
+  padding-top: 60px; 
     
 }
-.section9-text h5{
-    margin-top: 5%;
+
+.image4{
+    height: 70vh;
 }
 .Insured{
     display: flex;
